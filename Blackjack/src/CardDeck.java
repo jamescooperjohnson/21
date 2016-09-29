@@ -1,10 +1,10 @@
 
 		import java.util.ArrayList;
-
-		public class CardRunner
+		import java.util.Collections;
+		public class CardDeck
 			{
 			static ArrayList <Card> deck = new ArrayList <Card>();
-			public static void main(String[] args)
+			public static void fillDeck()
 				{
 				
 				
@@ -67,9 +67,8 @@
 				deck.add(new Card("king", "Clubs", 10));
 				deck.add(new Card("Ace", "Clubs", 11));
 				
-		
+				Collections.shuffle(deck);
 				
-				System.out.println(deck);
-
+				
 				}
 	}

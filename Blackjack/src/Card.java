@@ -1,5 +1,6 @@
 public class Card
 	{
+	
 	private String rank;
 	private String suit;
 	private int value;
@@ -46,3 +47,4 @@ public class Card
 		this.value = value;
 		}
 	}
+	
