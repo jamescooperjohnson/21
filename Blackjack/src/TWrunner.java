@@ -7,7 +7,8 @@ public class TWrunner
 				CardDeck.fillDeck();
 				TwentyOneGame.startup();
 				mainGame.Game();
-				
+				mainGame.love();
+				mainGame.snale1();
 
 			}
 

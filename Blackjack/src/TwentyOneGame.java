@@ -29,7 +29,7 @@ Scanner userInput2 = new Scanner (System.in);
 	
 String userGuess = userInput2.nextLine();
 
-if (userGuess.equals("yes") || userGuess.equals("yas") || userGuess.equals("yep") || userGuess.equals("Yes") || userGuess.equals("YES"))
+if (userGuess.equals("yes") || userGuess.equals("yas") || userGuess.equals("yep") || userGuess.equals("Yes") || userGuess.equals("YES") || userGuess.equals("yeah"))
 		{
 	
 	System.out.println("Welcome to 21.");
@@ -44,7 +44,7 @@ else if (userGuess.equals("no") || userGuess.equals("nah") || userGuess.equals("
 	}
 else
 	{
-	System.out.println("please enter a real answer.");
+	System.out.println("please enter yes or no.");
 	stillGuessing = true;
 	}
 	
